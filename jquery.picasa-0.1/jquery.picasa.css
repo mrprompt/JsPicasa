@@ -1,0 +1,96 @@
+div.picasa {
+    z-index: 0;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 0;
+}
+div.picasa a {
+    text-decoration: none;
+    color: #DD7802;
+}
+div.picasa h1 {
+    font-family: sans-serif;
+    font-size: 16pt;
+    color: #DD7802;
+}
+div.albuns .album,
+div.fotos .foto {
+    display: block;
+    padding: 5px;
+    background-color: #F5F5F5;
+    margin: 2px;
+    float: left;
+    vertical-align: top;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -opera-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 2px #D3D3D3;
+    -webkit-box-shadow: 2px 2px 2px #D3D3D3;
+    box-shadow: 2px 2px 2px #D3D3D3;
+    text-align: center;
+}
+div.albuns .album {
+    width: 180px;
+    min-height: 160px;
+}
+div.albuns .album b,
+div.fotos .foto b {
+    font-size: 12px;
+    line-height: 14px;
+    height: 30px;
+    overflow: hidden;
+    display: block;
+}
+div.fotos .botao {
+    display: block;
+    width: 80px;
+    height: 20px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -opera-border-radius: 5px;
+    background-color: #DD7802;
+    color: #FFF;
+    font-weight: bold;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 auto 0 auto;
+}
+div.fotos .botao:hover {
+    background-color: #1D1D1D;
+    color: #DD7802;
+}
+div.fotoView {
+    display: block;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -opera-border-radius: 5px;
+    -moz-box-shadow: 2px 2px 2px #D3D3D3;
+    -webkit-box-shadow: 2px 2px 2px #D3D3D3;
+    box-shadow: 2px 2px 2px #D3D3D3;
+    padding: 20px;
+    position: fixed;
+    z-index: 1000;
+    top: 0;
+    left: -320px;
+    margin-left: 50%;
+    margin-top: 0;
+    background-color: #FFF;
+    border: 1px solid #F2F2F2;
+    text-align: center;
+}
+div.fotoView img {
+    display: block;
+    max-width: 640px;
+    max-height: 480px;
+    margin: 0 auto 0 auto;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -khtml-border-radius: 5px;
+    -opera-border-radius: 5px;
+}
